@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:app="http://schemas.android.com/apk/res-auto"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent"
+ android:background="#E7E7F8"
+ tools:context=".MainActivity">
+ <TextView
+ android:id="@+id/textView"
+ android:layout_width="216dp"
+ android:layout_height="105dp"
+ android:layout_alignParentStart="true"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentRight="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginStart="2dp"
+ android:layout_marginLeft="17dp"
+ android:layout_marginTop="17dp"
+ android:layout_marginEnd="193dp"
+ android:layout_marginRight="193dp"
+ android:layout_marginBottom="502dp"
+ android:fontFamily="sans-serif-black"
+ android:text="ADICHUNCHANAGIRI INSTITUTE OF TECHNOLOGY"
+ android:textAlignment="center"
+ android:textColor="#6A1B9A"
+ android:textSize="20sp"
+ android:textStyle="bold|italic" />
+ <View
+ android:id="@+id/view"
+ android:layout_width="411dp"
+ android:layout_height="15dp"
+ android:layout_alignParentStart="true"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginStart="-6dp"
+ android:layout_marginEnd="6dp"
+ android:layout_marginBottom="429dp"
+ android:background="#746E12A6" />
+ <TextView
+ android:id="@+id/textView2"
+ android:layout_width="182dp"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentRight="true"
+ android:layout_alignParentBottom="true"
+ android:layout_centerInParent="true"
+ android:layout_marginEnd="110dp"
+ android:layout_marginRight="110dp"
+ android:layout_marginBottom="340dp"
+ android:text="ARCHANA P"
+ android:textColor="#4527A0"
+ android:textSize="30dp"
+ android:textStyle="bold" />
+ <TextView
+ android:id="@+id/textView3"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentRight="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="58dp"
+ android:layout_marginRight="58dp"
+ android:layout_marginBottom="283dp"
+ android:text="Assistant Professor-CSE"
+ android:textColor="#AD1457"
+ android:textSize="25dp" />
+ <TextView
+ android:id="@+id/textView4"
+ android:layout_width="wrap_content"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentRight="true"
+ android:layout_alignParentBottom="true"
+ android:layout_centerHorizontal="true"
+ android:layout_marginEnd="114dp"
+ android:layout_marginRight="114dp"
+ android:layout_marginBottom="225dp"
+ android:text="Ph No: 9908765432"
+ android:textColor="#C62828"
+ android:textSize="20dp" />
+ <TextView
+ android:id="@+id/textView5"
+ android:layout_width="370dp"
+ android:layout_height="wrap_content"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentRight="true"
+ android:layout_alignParentBottom="true"
+ android:layout_centerHorizontal="true"
+ android:layout_marginEnd="16dp"
+ android:layout_marginRight="16dp"
+ android:layout_marginBottom="143dp"
+ android:text="Jyothi Nagara, Kadur Road,Chikkamagaluru-577102"
+ android:textAlignment="center"
+ android:textColor="#1565C0"
+ android:textSize="20dp" />
+ <TextView
+ android:id="@+id/textView6"
+ android:layout_width="286dp"
+ android:layout_height="37dp"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentRight="true"
+ android:layout_alignParentBottom="true"
+ android:layout_centerHorizontal="true"
+ android:layout_marginEnd="58dp"
+ android:layout_marginRight="58dp"
+ android:layout_marginBottom="69dp"
+ android:text="Email: archanap@ait.ac.in"
+ android:textAlignment="center"
+ android:textColor="#6A1B9A"
+ android:textSize="20dp" />
+ <ImageView
+ android:id="@+id/imageView"
+ android:layout_width="127dp"
+ android:layout_height="120dp"
+ android:layout_alignParentEnd="true"
+ android:layout_alignParentBottom="true"
+ android:layout_marginEnd="30dp"
+ android:layout_marginBottom="507dp"
+ app:srcCompat="@drawable/aitlogo" />
+</RelativeLayout>
+
+JAVA CODE:
+
+package com.example.visitingcard;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+public class MainActivity extends AppCompatActivity {
+ @Override
+ protected void onCreate(Bundle savedInstanceState) {
+ super.onCreate(savedInstanceState);
+ setContentView(R.layout.activity_main);
+ } }
